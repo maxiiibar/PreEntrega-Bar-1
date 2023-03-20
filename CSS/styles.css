@@ -135,7 +135,7 @@ body{
     display: flex
 }
 .welcome-1{
-    background-image: url(../Images/dibu-martinez-argentina.jpg);
+    background-image: url(/images/dibu-martinez.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -245,30 +245,6 @@ p{
 .vermas-catalogo a:hover{
     color: rgba(203, 203, 203, 0.8);
 }
-.conte{
-    width: 250px;
-	height: 350px;
-    box-shadow: 0 0 7px black;
-    background-color: white;
-    margin:50px 30px;
-    border-radius: 5px;
-}
-.conte .cardp{
-    height: 200px;
-    width: 100%;
-    margin-bottom: 170px;
-    }
-.cardp img{
-    margin: auto;
-    display: block;
-}
-.rinat-1 img{
-    height: 250px;
-}
-.infop h2{
-    color: black;
-    font-size: 25px;
-}
-.box-precio p{
-    color: black;
+.card{
+    margin-bottom: 100px;
 }
