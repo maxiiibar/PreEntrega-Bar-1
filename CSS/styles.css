@@ -19,17 +19,13 @@ a:hover{
 body{
     font-family: 'Poppins', sans-serif;
 }
-.contenedor{
-    max-width: 1200px;
-    margin: 0 auto;
-}
 .header {
     background-image: url(/Images/image\(1\).png);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 70vh;
-    align-items: center;
+    align-content: center;
     flex-direction: column;
 }
 
@@ -169,15 +165,22 @@ p{
     align-items: center;
     background-color: #3b3b3b;
 }
+.marcas{
+    margin:0;
+    margin-top: 60px;
+}
+.marcas h2{
+    font-size: 70px;
+}
 .brand-group{
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 40vh;
-    margin-top: 20px;
+    margin-top: 0;
 }
 .brand{
-    margin: 20px;
+    margin: 0px 20px 20px 20px;
     width: 300px;
     height: 200px;
     border-radius: 10px;
@@ -210,11 +213,33 @@ p{
     text-decoration:underline;
 }
 .brands .btn-1{
-    margin-top: 0;
-    margin-bottom: 70px;
+    margin-top: 50px;
+    margin-bottom: 100px;
     background-color: black;
     color: white;
 }
 .brands .btn-1:hover{
-    color: #c9c8c8;
+    color: white;
+    text-decoration: underline;
+}
+.titulo-catalogo{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.destacados h3{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 50px;
+}
+.vermas-catalogo a{
+    font-size: 25px;
+    color: black;
+    text-decoration: underline;
+}
+.vermas-catalogo a:hover{
+    color: rgba(47, 47, 47, 0.8);
 }
