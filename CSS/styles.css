@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* font-family: 'Bebas Neue', cursive; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    background-image: url(/Images/image\(1\).png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.menu a img{
+    width: 200px;
+}
+
+.menu{
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo{
+    font-size:40px;
+    color: white;
+    font-weight: 800;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+}
+.menu .navbar ul li a:hover{
+    color: rgb(181, 181, 181);
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+.header-content{
+    padding: 50px;
+}
+.header-txt{
+    text-align: center;
+    margin-bottom: 45pxs;
+}
+.header-txt h1, span, h3{
+    font-size: 110px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    margin-bottom: 15px;
+}
+.header-txt span{
+    font-size: 25px;
+}
+.header-txt p{
+    color: #afafaf;
+    padding: 0 250px;
+    margin:25px 0;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 25px 0;
+    border: 0;
+}
+.btn-1:hover{
+    background-color: rgb(181, 181, 181);
+}
+
+.header-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.info h3{
+    font-size: 18px;
+}
+.info p{
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+    margin:0;
+}
+.welcome{
+    display: flex
+}
+.welcome-1{
+    background-image: url(/Images/dibu-martinez-argentina.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.welcome-2{
+    width: 50%;
+    padding: 150px 250px 150px 100px;
+    background-color: #191919;
+}
+h2{
+    font-size: 90px;
+    line-height: 100px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 16px;
+    color: #afafaf;
+    margin: 25px 0;
+}
+.brands{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3b3b3b;
+}
+.brand-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+    margin-top: 20px;
+}
+.brand{
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    background: var(--i);
+    background-size: cover;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
+}
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, .4);
+    opacity: 0;
+    transition: .5s;
+}
+.content h2, a{
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgba(255, 255, 255, .8)
+}
+.brand:hover .content{
+    border-radius: 10px;
+    opacity: 1;
+}
+.content a:hover{
+    color: rgba(255, 255, 255, .8);
+    text-decoration:underline;
+}
+.brands .btn-1{
+    margin-top: 0;
+    margin-bottom: 70px;
+    background-color: black;
+    color: white;
+}
+.brands .btn-1:hover{
+    color: #c9c8c8;
+}
