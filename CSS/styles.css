@@ -20,7 +20,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .header {
-    background-image: url(../images/dibu.PNG);
+    background-image: url(./images/dibu.png);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -135,7 +135,7 @@ body{
     display: flex
 }
 .welcome-1{
-    background-image: url(../images/dibu-martinez.JPG);
+    background-image: url(./images/dibu-martinez.JPG);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
