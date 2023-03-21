@@ -20,7 +20,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .header {
-    background-image: url(../Images/dibu.png);
+    background-image: url(/images/dibu.png);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -247,4 +247,19 @@ p{
 }
 .card{
     margin-bottom: 100px;
+}
+.direc{
+    display: flex;
+}
+.content-direc{
+    background-image: url(/images/dibu-martinez.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.content-direc2{
+    width: 50%;
+    padding: 150px 250px 150px 100px;
+    background-color: #191919;
 }
