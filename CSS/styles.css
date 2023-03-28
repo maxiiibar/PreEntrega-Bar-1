@@ -140,7 +140,7 @@ body{
     display: flex;
 }
 .welcome-1{
-    background-image: url(/images/dibu-martinez.JPG);
+    background-image: url(../images/dibu-martinez.JPG);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -307,15 +307,22 @@ p{
 .contacto{
     margin: 25px 0;
 }
+.iconos{
+    color: #afafaf;
+}
 .redes{
     height: 70px;
-    padding: 0 25px;
+    width: 150px;
     display: flex;
     align-content: flex-start;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-.redes a:hover{
-    color: #757575;
+.col-redes{
+    display: flex;
+    justify-content: center;
+}
+.iconos:hover{
+    color: #525252;
 }
 
 @media only screen and (max-width:991px){
@@ -418,5 +425,69 @@ p{
     .catalogo{
         padding: 0 15px;
         padding-bottom: 60px;
+    }
+    .direc{
+        flex-direction: column;
+        padding:0;
+        padding-bottom: 80px;
+    }
+    .content-direc{
+        width: 100%;
+        text-align: center;
+        padding: 40px;
+    }
+    .content-direc2{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+    }
+    .content-direc2 iframe{
+        width: 500px;
+    }
+    .pie{
+
+        padding: 50px;
+    }
+    .col{
+        padding: 15px;
+    }
+    .col-redes{
+        justify-content: flex-start;
+    }
+    .redes{
+        justify-content: space-between;
+    }
+    .pie{
+        padding-left: 100px;
+    }
+}
+@media only screen and (max-width: 1400px){
+    .direc{
+        flex-direction: column;
+        padding:0;
+        padding-bottom: 80px;
+    }
+    .content-direc{
+        width: 100%;
+        text-align: center;
+        padding: 40px;
+    }
+    .content-direc2{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+    }
+    .content-direc2 iframe{
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .content-direc2 iframe{
+        width: 350px;
+    }
+    .pie{
+        padding-left: 50px;
     }
 }
