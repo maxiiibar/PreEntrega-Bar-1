@@ -132,6 +132,9 @@ body{
     text-transform: uppercase;
     margin:0;
 }
+.tel:hover{
+    text-decoration: underline;
+}
 .welcome{
     display: flex;
 }
