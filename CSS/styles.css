@@ -16,6 +16,10 @@ a:hover{
     color: black;
     text-decoration: none;
 }
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -220,10 +224,6 @@ p{
 }
 .catalog{
     background-color: #191919;
-    /* background-image: url(/images/dibu.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 .titulo-catalogo{
     padding-top: 100px;
@@ -245,6 +245,12 @@ p{
 }
 .titulo-catalogo a:hover{
     color: rgba(203, 203, 203, 0.8);
+}
+.catalogo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .card{
     margin-bottom: 100px;
@@ -311,7 +317,7 @@ p{
     color: #757575;
 }
 
-@media(max-width:991px){
+@media only screen and (max-width:991px){
     .menu{
         padding: 20px;
     }
@@ -381,7 +387,14 @@ p{
         border-radius: 10px;
         opacity: 1;
     }
-    .titulo-catalogo{
+    /* .titulo-catalogo{
+        padding-top:70px;
         flex-direction: column;
+    } */
+    .titulo-catalogo h3{
+        font-size: 70px;
+    }
+    .titulo-catalogo a{
+        font-size: 20px;
     }
 }
