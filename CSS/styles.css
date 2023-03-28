@@ -24,7 +24,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .header {
-    background-image: url(/images/dibu.png);
+    background-image: url(../images/dibu.png);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -253,6 +253,7 @@ p{
     flex-wrap: wrap;
 }
 .card{
+    width: 18rem;
     margin-bottom: 100px;
 }
 .direc{
@@ -387,14 +388,35 @@ p{
         border-radius: 10px;
         opacity: 1;
     }
-    /* .titulo-catalogo{
+    .titulo-catalogo{
         padding-top:70px;
         flex-direction: column;
-    } */
+    }
     .titulo-catalogo h3{
         font-size: 70px;
     }
     .titulo-catalogo a{
         font-size: 20px;
+    }
+    .card{
+        width: 10rem;
+        margin-bottom: 16px;
+    }
+    .card-title{
+        font-size: 12px;
+        padding-bottom: 0;
+    }
+    .card-text{
+        margin: 5px 0;
+        font-size: 10px;
+    }
+    .btn{
+        margin: 0;
+        width: 130px;
+        font-size: 8px;
+    }
+    .catalogo{
+        padding: 0 30px;
+        padding-bottom: 60px;
     }
 }
