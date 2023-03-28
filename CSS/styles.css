@@ -16,10 +16,10 @@ a:hover{
     color: black;
     text-decoration: none;
 }
-html, body {
+/* html, body {
     max-width: 100% !important;
     overflow-x: hidden !important;
-}
+} */
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -420,7 +420,8 @@ p{
     .btn{
         margin: 0;
         width: 130px;
-        font-size: 8px;
+        font-size: 9px;
+        padding: 5px 0;
     }
     .catalogo{
         padding: 0 15px;
