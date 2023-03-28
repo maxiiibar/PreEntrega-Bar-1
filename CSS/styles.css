@@ -16,10 +16,6 @@ a:hover{
     color: black;
     text-decoration: none;
 }
-/* html, body {
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-} */
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -324,6 +320,10 @@ p{
 .iconos:hover{
     color: #525252;
 }
+.header-nos{
+    padding: 100px 0;
+    padding-bottom: 200px;
+}
 
 @media only screen and (max-width:991px){
     .menu{
@@ -466,18 +466,17 @@ p{
 @media only screen and (max-width: 1400px){
     .direc{
         flex-direction: column;
+        align-items: center;
         padding:0;
         padding-bottom: 80px;
     }
     .content-direc{
-        width: 100%;
         text-align: center;
         padding: 40px;
     }
     .content-direc2{
         display: flex;
         justify-content: center;
-        width: 100%;
         padding: 0;
     }
     .content-direc2 iframe{
