@@ -20,13 +20,13 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .header {
-    background-image: url(images/dibu.png);
+    background-image: url(/images/dibu.png);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 70vh;
-    align-content: center;
-    flex-direction: column;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -35,6 +35,7 @@ body{
 }
 
 .menu{
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -42,14 +43,6 @@ body{
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
-}
-
-.logo{
-    font-size:40px;
-    color: white;
-    font-weight: 800;
-    font-family: 'Bebas Neue', cursive;
-    text-transform: uppercase;
 }
 .menu .navbar ul li{
     position: relative;
@@ -62,7 +55,7 @@ body{
     display: block;
 }
 .menu .navbar ul li a:hover{
-    color: rgb(181, 181, 181);
+    color: rgb(138, 138, 138);
 }
 #menu{
     display: none;
@@ -76,6 +69,7 @@ body{
 }
 .header-content{
     padding: 50px;
+    margin-top: 100px;
 }
 .header-txt{
     text-align: center;
@@ -117,13 +111,14 @@ body{
 .header-info{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-content: flex-start;
     text-align: center;
+    margin-left: 0;
     margin-top: 100px;
     margin-bottom: 100px;
 }
 .info h3{
-    font-size: 18px;
+    font-size: 22px;
 }
 .info p{
     font-size: 22px;
@@ -131,11 +126,17 @@ body{
     text-transform: uppercase;
     margin:0;
 }
+.info a{
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    margin:0;
+}
 .welcome{
-    display: flex
+    display: flex;
 }
 .welcome-1{
-    background-image: url(images/dibu-martinez.JPG);
+    background-image: url(/images/dibu-martinez.JPG);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -169,15 +170,11 @@ p{
     align-items: center;
     flex-direction: column;
 }
-.titulo-marcas h2{
-    font-size: 70px;
-}
 .brand-group{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 40vh;
-    margin-top: 0;
+}
+.titulo-marcas h2{
+    font-size: 70px;
 }
 .brand{
     margin: 0px 20px 20px 20px;
@@ -199,7 +196,7 @@ p{
     opacity: 0;
     transition: .5s;
 }
-.content h2, a{
+.content a{
     font-size: 40px;
     font-family: 'Bebas Neue', cursive;
     color: rgba(255, 255, 255, .8)
@@ -219,7 +216,7 @@ p{
 }
 .brands .btn-1:hover{
     color: white;
-    text-decoration: underline;
+    background-color: rgb(87, 87, 87);
 }
 .catalog{
     background-color: #191919;
@@ -235,18 +232,18 @@ p{
     align-items: center;
     justify-content: space-between;
 }
-.destacados h3{
+.titulo-catalogo h3{
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
     color: white;
     font-size: 50px;
 }
-.vermas-catalogo a{
+.titulo-catalogo a{
     font-size: 25px;
     color: white;
     text-decoration: underline;
 }
-.vermas-catalogo a:hover{
+.titulo-catalogo a:hover{
     color: rgba(203, 203, 203, 0.8);
 }
 .card{
@@ -265,4 +262,126 @@ p{
 }
 .content-direc2{
     width: 50%;
+}
+.footer{
+    background-color: #191919;
+}
+.pie{
+    padding: 100px 100px 200px 100px;
+}
+.col h2{
+    line-height: 50px;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.col h3{
+    font-size: 35px;
+}
+.link  {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #afafaf;
+    margin: 25px 0;
+}
+.link:hover{
+    color: #afafaf;
+    text-decoration: underline;
+}
+.acceso{
+    display: flex;
+}
+.acceso a{
+    margin: 0;
+    padding-left: 5px;
+}
+.acceso p{
+    margin: 0;
+}
+.contacto{
+    margin: 25px 0;
+}
+.redes{
+    height: 70px;
+    padding: 0 25px;
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-around;
+}
+.redes a:hover{
+    color: #757575;
+}
+
+@media(max-width:991px){
+    .menu{
+        padding: 20px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #1F1F1F;
+        display: none;
+    }
+    .menu .navbar ul li {
+        width: 100%;
+    }
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+    .header {
+        min-height: 0vh;
+    }
+    .header-content {
+        padding: 80px 30px 50px 30px;
+    }
+    .header-txt {
+        margin-bottom: 15px;
+    }
+    .header-txt h1 {
+        font-size: 90px;
+        }
+    .header-txt p{
+        padding: 0;
+        margin: 15px 0;
+    }
+    .header-info{
+        flex-direction: column;
+    }
+    .info{
+        margin-bottom: 50px;
+    }
+    .info p{
+        font-size: 18px
+    }
+    .welcome{
+        flex-direction: column;
+    }
+    .welcome-1{
+        display: none;
+    }
+    .welcome-2{
+        width: 100%;
+        padding:  100px 30px;
+        text-align: center;
+    }
+    h2{
+        font-size: 70px;
+    }
+    .brand-group{
+        flex-direction: column;
+    }
+    .brand{
+        margin:25px 0;
+    }
+    .content{
+        border-radius: 10px;
+        opacity: 1;
+    }
+    .titulo-catalogo{
+        flex-direction: column;
+    }
 }

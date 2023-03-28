@@ -7,6 +7,7 @@
     <title>Inicio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ef84cedd25.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 
@@ -15,7 +16,7 @@
         <div class="menu container">
             <a href="index.html"><img src="images/logo-solo-letras.JPG" alt=""></a>
             <input type="checkbox" name="" id="menu">
-            <label for="menu"><img src="images/menu.png" class="menu-icono" alt=""></label>
+            <label for="menu"><img src="/images/menu.png" class="menu-icono" alt=""></label>
             <nav class="navbar">
                 <ul>
                     <li><a href="#">Inicio</a></li>
@@ -44,7 +45,7 @@
                 </div>
                 <div class="info">
                     <h3>Telefono</h3>
-                    <p>03426146700</p>
+                    <a href="">3426146700</a>
                 </div>
                 <div class="info">
                     <h3>Horarios</h3>
@@ -75,51 +76,33 @@
             <div class="titulo-marcas">
                 <h2>Marcas</h2>
             </div>
-            <div class="row">
-                <div class="col">
-                    <div class="brand" style="--i:url(images/reusch.JPG)">
-                        <div class="content">
-                            <a href="#">REUSCH</a>
-                        </div>
+            <div class="brand-group">
+                <div class="brand" style="--i:url(/images/reusch.JPG)">
+                    <div class="content">
+                        <a href="#">REUSCH</a>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="brand" style="--i:url(images/n1gloves.JPG)">
-                        <div class="content">
-                            <a href="#">N1 GLOVES</a>
-                        </div>
+                <div class="brand" style="--i:url(/images/n1gloves.JPG)">
+                    <div class="content">
+                        <a href="#">N1 GLOVES</a>
                     </div>
                 </div>
-                <div class="col"> 
-                    <div class="brand" style="--i:url(images/prostar.JPG)">
-                        <div class="content">
-                            <a href="#">PROSTAR</a>
-                        </div>
+                <div class="brand" style="--i:url(/images/prostar.JPG)">
+                    <div class="content">
+                        <a href="#">PROSTAR</a>
                     </div>
                 </div>
-                <!-- <div class="col">
-                    <div class="brand" style="--i:url(../Images/D_NQ_NP_997578-MLA53886547245_022023-W.jpg)"">
-                        <div class="content">
-                            <a href="#">RINAT</a>
-                        </div>
-                    </div>
-
-                </div> -->
             </div>
             <a href="#" class="btn-1">Más Marcas</a>
         </div>
     </section>
     <main class="catalog">
         <div class="titulo-catalogo container">
-            <div class="destacados">
-                <h3>Destacados</h3>
-            </div>
-            <div class="vermas-catalogo">
-                <a href="">Ver más Productos</a>
-            </div>
+            <h3>Destacados</h3>
+            <a href="">Ver más Productos</a>
         </div>
         <div class="container catalogo">
-            <div class="row columna">
+            <div class="row">
                 <div class="col">
                     <div class="card" style="width: 18rem;">
                         <img src="images/attrakt-freegel-infinity.jpg" class="card-img-top" alt="...">
@@ -228,20 +211,46 @@
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
-    <footer>
-        <div class="footer">
+    <footer class="footer">
+        <div class="container pie">
             <div class="row">
                 <div class="col">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto tenetur beatae eligendi dolor nemo
-                    nihil.
+                    <h2>Tenés alguna consulta?</h2>
+                    <a href="#" class="btn-1">Contactanos</a>
                 </div>
                 <div class="col">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto tenetur beatae eligendi dolor nemo
-                    nihil.
+                    <h3>Atención al cliente</h3>
+                    <div class="acceso">
+                        <p>Número telefónico:</p>
+                        <a href="" class="link">3426146700</a>
+                    </div>
+                    <p>Lunes a Viernes de 9 a 12:30 hs</p>
+                    <p>Sábados de 9:30 a 12:30 hs</p>
+                    <a href="" class="link">Medios de envío</a>
                 </div>
                 <div class="col">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto tenetur beatae eligendi dolor nemo
-                    nihil.
+                    <h3>Inforamción de la empresa</h3>
+                    <a href="" class="link">Sobre Nosotros</a>
+                    <div class="acceso contacto">
+                        <p>Contacto:</p>
+                        <a href="" class="link">hbsport@hotmail.com</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="redes">
+                        <a href="https://www.instagram.com/hbsport/"><i class="iconos fa-brands fa-xs fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/people/Hb-Sport-Tienda-de-Arqueros/100063551755166/"><i class="iconos fa-brands fa-xs fa-facebook"></i></a>
+                        <a href="https://twitter.com/hb_soloarqueros"><i class="iconos fa-brands fa-xs fa-twitter"></i></a>
+                    </div>
+                        <!-- <div class="ico">
+                            <a href="https://www.instagram.com/hbsport/"><i class="iconos fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="ico">
+                            <a href="https://www.facebook.com/people/Hb-Sport-Tienda-de-Arqueros/100063551755166/"><i class="iconos fa-brands fa-facebook"></i></a>
+                        </div>
+                        <div class="ico">
+                            <a href="https://twitter.com/hb_soloarqueros"><i class="iconos fa-brands fa-twitter"></i></a>
+                        </div> -->
                 </div>
             </div>
         </div>
