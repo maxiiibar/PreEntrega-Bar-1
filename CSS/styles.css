@@ -140,7 +140,7 @@ body{
     display: flex;
 }
 .welcome-1{
-    background-image: url(../images/dibu-martinez.JPG);
+    background-image: url(./images/dibu-martinez.JPG);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
