@@ -379,6 +379,103 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
 }
+@media only screen and (max-width: 1500px){
+    .imagen{
+        width: 500px;
+        height: 400px;
+    }
+    .content-tarjeta{
+        padding: 0px 100px 0px 150px;
+    }
+    .content-tarjeta h2{
+        font-size: 75px;
+        margin-bottom: 10px;
+    }
+    .content-tarjeta p{
+        margin: 20px 0;
+        font-size: 15px;
+    }
+    .titulo{
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+    .titulo h2{
+        font-size: 80px;
+    }
+    .content-tarjeta-1{
+        padding-right: 150px;
+    }
+    .content-tarjeta-1 h2{
+        font-size: 75px;
+        margin-bottom: 10px;
+    }
+    .content-tarjeta-1 p{
+        margin: 20px 0;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 1400px){
+    .direc{
+        flex-direction: column;
+        align-items: center;
+        padding:0;
+        padding-bottom: 80px;
+    }
+    .content-direc{
+        text-align: center;
+        padding: 40px;
+    }
+    .content-direc2{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .content-direc2 iframe{
+        width: 500px;
+    }
+    .redes{
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .titulo{
+        padding-bottom: 0;
+    }
+    .titulo h2{
+        font-size: 80px;
+    }
+    .tarjeta{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding:0;
+        padding-bottom: 80px;
+    }
+    .content-tarjeta{
+        text-align: center;
+        padding: 40px;
+    }
+    .content-tarjeta-1{
+        text-align: center;
+        padding: 40px;
+    }
+    .t2{
+        flex-direction: column-reverse;
+    }
+    .redes{
+        padding-top:100px;
+    }
+    .content-tarjeta-img1{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .content-tarjeta-img2{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+}
 @media only screen and (max-width:991px){
     .menu{
         padding: 20px;
@@ -497,11 +594,34 @@ p{
         width: 100%;
         padding: 0;
     }
+    .content-tarjeta{
+        width: 100%;
+        text-align: center;
+        padding: 40px;
+    }
+    .content-tarjeta h2{
+        font-size: 60px;
+    }
+    .content-tarjeta-1{
+        width: 100%;
+        text-align: center;
+        padding: 40px;
+    }
+    .content-tarjeta-1 h2{
+        font-size: 60px;
+    }
+    .content-tarjeta-img1{
+        width: 100%;
+        padding: 0;
+    }
+    .content-tarjeta-img2{
+        width: 100%;
+        padding: 0;
+    }
     .content-direc2 iframe{
         width: 500px;
     }
     .pie{
-
         padding: 50px;
     }
     .col{
@@ -520,57 +640,10 @@ p{
         padding-bottom: 100px;
     }
     .titulo h2{
-        font-size: 60px;
+        font-size: 70px;
     }
     .redes{
         padding: 0;
-    }
-}
-@media only screen and (max-width: 1400px){
-    .direc{
-        flex-direction: column;
-        align-items: center;
-        padding:0;
-        padding-bottom: 80px;
-    }
-    .content-direc{
-        text-align: center;
-        padding: 40px;
-    }
-    .content-direc2{
-        display: flex;
-        justify-content: center;
-        padding: 0;
-    }
-    .content-direc2 iframe{
-        width: 500px;
-    }
-    .redes{
-        padding: 0;
-    }
-}
-@media only screen and (max-width: 1200px){
-    .titulo{
-        padding-bottom: 0;
-    }
-    .titulo h2{
-        font-size: 90px;
-    }
-    .tarjeta{
-        flex-direction: column;
-        align-items: center;
-        padding:0;
-        padding-bottom: 80px;
-    }
-    .content-tarjeta{
-        text-align: center;
-        padding: 40px;
-    }
-    .t2{
-        flex-direction: column-reverse;
-    }
-    .redes{
-        padding-top:100px;
     }
 }
 @media only screen and (max-width: 600px){
@@ -582,5 +655,13 @@ p{
     }
     .redes{
         padding: 0;
+    }
+    .content-tarjeta-img1{
+        width: 80%;
+        height: 80%;
+    }
+    .content-tarjeta-img2{
+        width: 80%;
+        height: 80%;
     }
 }
