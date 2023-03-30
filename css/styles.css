@@ -8,6 +8,10 @@
     text-decoration: none; 
     list-style: none;
 }
+/* html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+} */
 a{
     text-decoration: none;
     color: black;
@@ -18,6 +22,7 @@ a:hover{
 }
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #2d2c2c;
 }
 .header {
     background-image: url(../images/dibu.png);
@@ -327,7 +332,53 @@ p{
     padding: 100px 0;
     padding-bottom: 200px;
 }
-
+.titulo{
+    background-color: #2d2c2c;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.titulo h2{
+    font-size: 100px;
+    text-align: center;
+}
+.tarjeta{
+    background-color: #2d2c2c;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin-top: 0;
+}
+.t1{
+    padding-top: 0;
+}
+.t2 {
+    background-color: #1F1F1F;
+}
+.content-tarjeta{
+    width: 50%;
+    padding: 0px 100px 0px 250px;
+}
+.content-tarjeta-img1{
+    width: 50%;
+}
+.content-tarjeta-img2{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.content-tarjeta-1{
+    width: 50%;
+    padding: 0px 250px 0px 100px;
+}
+.imagen{
+    width: 600px;
+    height: 500px;
+    background-image: url(/images/dibu-martinez.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 @media only screen and (max-width:991px){
     .menu{
         padding: 20px;
@@ -465,6 +516,15 @@ p{
     .pie{
         padding-left: 100px;
     }
+    .header{
+        padding-bottom: 100px;
+    }
+    .titulo h2{
+        font-size: 60px;
+    }
+    .redes{
+        padding: 0;
+    }
 }
 @media only screen and (max-width: 1400px){
     .direc{
@@ -485,6 +545,33 @@ p{
     .content-direc2 iframe{
         width: 500px;
     }
+    .redes{
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .titulo{
+        padding-bottom: 0;
+    }
+    .titulo h2{
+        font-size: 90px;
+    }
+    .tarjeta{
+        flex-direction: column;
+        align-items: center;
+        padding:0;
+        padding-bottom: 80px;
+    }
+    .content-tarjeta{
+        text-align: center;
+        padding: 40px;
+    }
+    .t2{
+        flex-direction: column-reverse;
+    }
+    .redes{
+        padding-top:100px;
+    }
 }
 @media only screen and (max-width: 600px){
     .content-direc2 iframe{
@@ -492,5 +579,8 @@ p{
     }
     .pie{
         padding-left: 50px;
+    }
+    .redes{
+        padding: 0;
     }
 }
