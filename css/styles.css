@@ -33,8 +33,6 @@ body{
     display: flex;
     align-items: center;
 }
-
-
 .menu a img{
     width: 200px;
 }
@@ -144,7 +142,7 @@ body{
     display: flex;
 }
 .welcome-1{
-    background-image: url(/images/dibu-martinez.png);
+    background-image: url(../images/dibu-martinez.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -374,7 +372,7 @@ p{
 .imagen{
     width: 600px;
     height: 500px;
-    background-image: url(/images/dibu-martinez.png);
+    background-image: url(../images/dibu-martinez.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
